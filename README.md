@@ -22,6 +22,8 @@ $ tree
 Two version executable dligand2 are provided, the envrionment of DATAPATH must be set to find the file of amino.mol2 and dfire.2. Then:
 ```
 $cd example
+$ ../bin/dligand2.intel 
+Usage: ../bin/dligand2.intel [-v] [-s dfire.2] [-etype 1,2] [-P protein] [-L ligand]
 $../bin/dligand2.intel -P 966c_protein.pdb -L 966c_ligand.mol2
  -10.2342
 $ ../bin/dligand2.intel -etype 1 -P 966c_protein.pdb -L 966c_ligand.mol2 
