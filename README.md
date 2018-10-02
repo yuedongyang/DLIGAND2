@@ -1,5 +1,5 @@
 # dligand2
-RF-Score is a knowledge-based method to predict protein-ligand binding affinity based on a distance-scaled, finite, ideal-gas reference (DFIRE) state.
+dligand2 is a knowledge-based method to predict protein-ligand binding affinity based on a distance-scaled, finite, ideal-gas reference (DFIRE) state.
 # How to run 
 When you download the dligand2 software package, the following files can be obtained:
 ```
