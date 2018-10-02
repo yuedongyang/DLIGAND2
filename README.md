@@ -1,1 +1,32 @@
 # dligand2
+RF-Score is a knowledge-based method to predict protein-ligand binding affinity based on a distance-scaled, finite, ideal-gas reference (DFIRE) state.
+# How to run 
+When you download the dligand2 software package, the following files can be obtained:
+```
+$ tree 
+.
+|-- bin
+|   |-- amino.mol2
+|   |-- dfire.2
+|   |-- dligand2.gnu
+|   `-- dligand2.intel
+|-- example
+|   |-- 966c_ligand.mol2
+|   |-- 966c_protein.pdb
+|   `-- run_example.sh
+|-- LICENSE
+`-- README.md
+
+2 directories, 9 files
+```
+Two version executable dligand2 are provided, the envrionment of DATAPATH must be set to find the file of amino.mol2 and dfire.2. Then:
+```
+$cd example
+$../bin/dligand2.intel -P 966c_protein.pdb -L 966c_ligand.mol2
+ -10.2342
+$ ../bin/dligand2.intel -etype 1 -P 966c_protein.pdb -L 966c_ligand.mol2 
+ -9.7558
+[nscc-gz_pinchen@ln0%tianhe2-C example]$ ../bin/dligand2.intel -etype 2 -P 966c_protein.pdb -L 966c_ligand.mol2 
+ -10.2342
+```
+The argument of -etype [1,2] gives two versions of potentials,represent protein atom type subdivided into 13 atom typs and 167 atom types. 
