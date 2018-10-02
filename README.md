@@ -31,4 +31,4 @@ $ ../bin/dligand2.intel -etype 1 -P 966c_protein.pdb -L 966c_ligand.mol2
 $ ../bin/dligand2.intel -etype 2 -P 966c_protein.pdb -L 966c_ligand.mol2 
  -10.2342
 ```
-The argument of -etype [1,2] gives two versions of potentials,represent protein atom type subdivided into 13 atom typs and 167 atom types. 
+The argument of [-etype 1,2] gives two versions of potentials,represent protein atom type subdivided into 13 atom typs and 167 atom types. 
