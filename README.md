@@ -19,7 +19,7 @@ $ tree
 
 2 directories, 9 files
 ```
-Two version executable dligand2 are provided, the envrionment of DATAPATH must be set to find the file of amino.mol2 and dfire.2. Then:
+Two version of executable dligand2 are provided, the envrionment of DATAPATH must be set to find the file of amino.mol2 and dfire.2. Then:
 ```
 $ cd example
 $ ../bin/dligand2.intel 
