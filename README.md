@@ -14,6 +14,8 @@ $ tree
 |   |-- dligand2.gnu
 |   |-- dligand2.intel
 |   `-- Potential_parameters.txt
+|-- doc
+|   `--pitcure.png
 |-- example
 |   |-- 966c_ligand.mol2
 |   |-- 966c_protein.pdb
