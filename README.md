@@ -9,7 +9,8 @@ $ tree
 |   |-- amino.mol2
 |   |-- dfire.2
 |   |-- dligand2.gnu
-|   `-- dligand2.intel
+|   |-- dligand2.intel
+|   `-- Potential_parameters.txt
 |-- example
 |   |-- 966c_ligand.mol2
 |   |-- 966c_protein.pdb
