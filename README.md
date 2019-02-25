@@ -25,7 +25,7 @@ Two version of executable dligand2 are provided, the envrionment of DATAPATH mus
 $ cd example
 $ ../bin/dligand2.intel 
 Usage: ../bin/dligand2.intel [-v] [-s dfire.2] [-etype 1,2] [-P protein] [-L ligand]
-]$ ./dligand2.gnu -etype 1 -P ../966c/966c_protein.pdb -L ../966c/966c_ligand.mol2
+$ ./dligand2.gnu -etype 1 -P ../966c/966c_protein.pdb -L ../966c/966c_ligand.mol2
  -12.4143
 $ ./dligand2.gnu -etype 2 -P ../966c/966c_protein.pdb -L ../966c/966c_ligand.mol2
  -13.908
