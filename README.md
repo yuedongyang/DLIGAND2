@@ -1,7 +1,8 @@
 # DLIGAND2
 DLIGAND2 is a knowledge-based method to predict protein-ligand binding affinity based on a distance-scaled, finite, ideal-gas reference (DFIRE) state.
-
+<div style="align: center">
 <img src="https://github.com/TH-CADD/DLIGAND2/blob/master/doc/picture.png" width="70%" div align=center />
+</div>
 
 # How to run 
 When you have downloaded the DLIGAND2 software package, the following files can be obtained:
